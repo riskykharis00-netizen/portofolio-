@@ -2,5 +2,7 @@
   "name": "Rizky Kharis Syamsuddin — Portofolio HR, Administrasi & UI/UX",
   "description": "Portofolio resmi Rizky Kharis Syamsuddin, alumni Sistem Informasi Universitas Mulawarman yang berfokus pada bidang Human Resources (HR), Administrasi, dan Desain UI/UX.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

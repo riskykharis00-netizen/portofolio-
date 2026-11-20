@@ -1,3 +1,7 @@
+import heroPortraitImg from '../assets/images/rizky_studio_hero_1795204305419.jpg';
+import projectSmashArenaImg from '../assets/images/project_smash_arena_1795204997696.jpg';
+import projectPortalSdmImg from '../assets/images/project_si_akademik_1795204305162.jpg';
+
 export type ProjectCategory =
   | 'Semua'
   | 'Desain UI/UX'
@@ -112,7 +116,7 @@ export const PROFILE = {
 };
 
 export const HERO_MEDIA = {
-  src: '/src/assets/images/rizky_studio_hero_1795204305419.jpg',
+  src: heroPortraitImg,
   alt: 'Rizky Kharis Syamsuddin bekerja pada perancangan antarmuka UI/UX dan pengelolaan operasional HR',
 };
 
@@ -145,7 +149,7 @@ export const PROJECTS: ProjectItem[] = [
     role: 'UI/UX Designer & Frontend Developer',
     summary:
       'Merancang antarmuka pengguna (UI/UX) serta sistem jadwal pemesanan lapangan badminton secara real-time agar bebas bentrok dan mudah dipindai.',
-    image: '/src/assets/images/project_smash_arena_1795204997696.jpg',
+    image: projectSmashArenaImg,
     imageAlt: 'Laptop menampilkan antarmuka UI/UX jadwal pemesanan lapangan Smash Arena',
     featured: true,
     liveUrl: 'https://smash-badminton-beta.vercel.app/',
@@ -169,7 +173,7 @@ export const PROJECTS: ProjectItem[] = [
     role: 'HR Operations & UI/UX Designer',
     summary:
       'Perancangan antarmuka pengelolaan data karyawan, pencatatan dokumen kepegawaian, serta validasi kelengkapan berkas SDM untuk mendukung operasional HR harian.',
-    image: '/src/assets/images/project_si_akademik_1795204305162.jpg',
+    image: projectPortalSdmImg,
     imageAlt: 'Antarmuka portal pengelolaan data SDM dan tabel pencatatan karyawan pada layar desktop',
     stack: ['Administrasi SDM', 'Tata Kelola Arsip HR', 'Basis Data Karyawan', 'Desain Tabel UI', 'Validasi Input'],
     challenge:
