@@ -4,9 +4,13 @@ import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(() => {
-  const rawBase = process.env.VITE_BASE_PATH || '/';
-  const base = rawBase.replace(/\/+$/, '') + '/';
+export default defineConfig(({command}) => {
+  const rawBase = process.env.VITE_BASE_PATH;
+  const base = rawBase
+    ? rawBase.replace(/\/+$/, '') + '/'
+    : command === 'build'
+      ? './'
+      : '/';
 
   return {
     base,
